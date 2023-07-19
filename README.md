@@ -1,6 +1,6 @@
 # titanic-api
 Repository for web service that exposes data related to Titanic passengers.<br><br>
-Contains the follwoing files:<br>
+Contains the following files:<br>
     app.log - log file that reflects tha requests shown in titanic_api.ipynb<br>
               at first with CSV selected as DATA_SOURCE in config.ini file<br>
               then with DATABASE selected as DATA_SOURCE in config.ini file<br>
