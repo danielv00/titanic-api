@@ -18,7 +18,7 @@ Contains the follwoing files:<br>
 
 
 Required modules for this repository:<br>
-pandas matplotlib numpy configparser aiosqlite aiofiles uvicorn<br><br>
+pandas matplotlib numpy configparser aiosqlite aiofiles uvicorn fastapi <br><br>
 
 How to run this web service? Execute the follwoing command:<br>
 python -m uvicorn titanic:app --reload<br><br>
