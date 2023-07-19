@@ -20,7 +20,7 @@ Contains the follwoing files:<br>
 Required modules for this repository:<br>
 pandas matplotlib numpy configparser aiosqlite aiofiles uvicorn fastapi <br><br>
 
-How to run this web service? Execute the follwoing command:<br>
+How to run this web service? Execute the following command:<br>
 python -m uvicorn titanic:app --reload<br><br>
 
 After running the service on local machine the Swagger documentation can be found here:<br>
