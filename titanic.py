@@ -15,9 +15,6 @@ import datetime
 import aiofiles
 import aiosqlite
 from io import StringIO
-# import uvicorn
-
-#TODO: add documentation to methods to show in swager
 
 app = FastAPI(title="Titanic API", description="API for Titanic passengers data", version="1.1.0")
 
