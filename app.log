@@ -1,0 +1,52 @@
+INFO:root:Service was restarted at 19-07-2023 17:12:52
+DEBUG:root:log_level='DEBUG'
+DEBUG:root:Creating connection to titanic.db at 19-07-2023 17:12:52
+DEBUG:aiosqlite:executing <function connect.<locals>.connector at 0x00000274E33FADE0>
+DEBUG:aiosqlite:operation <function connect.<locals>.connector at 0x00000274E33FADE0> completed
+DEBUG:root:Loading data from Passengers table at 19-07-2023 17:12:52
+DEBUG:aiosqlite:executing functools.partial(<built-in method execute of sqlite3.Connection object at 0x00000274E33EDC60>, 'SELECT * from Passengers', [])
+DEBUG:aiosqlite:operation functools.partial(<built-in method execute of sqlite3.Connection object at 0x00000274E33EDC60>, 'SELECT * from Passengers', []) completed
+DEBUG:aiosqlite:executing functools.partial(<built-in method fetchall of sqlite3.Cursor object at 0x00000274E33E2EC0>)
+DEBUG:aiosqlite:operation functools.partial(<built-in method fetchall of sqlite3.Cursor object at 0x00000274E33E2EC0>) completed
+DEBUG:aiosqlite:executing functools.partial(<built-in method close of sqlite3.Cursor object at 0x00000274E33E2EC0>)
+DEBUG:aiosqlite:operation functools.partial(<built-in method close of sqlite3.Cursor object at 0x00000274E33E2EC0>) completed
+DEBUG:aiosqlite:executing functools.partial(<built-in method close of sqlite3.Connection object at 0x00000274E33EDC60>)
+DEBUG:aiosqlite:operation functools.partial(<built-in method close of sqlite3.Connection object at 0x00000274E33EDC60>) completed
+INFO:root:Loaded total of 891 passengers
+INFO:root:Executing GET for fare_histogram at 19-07-2023 17:13:41
+INFO:root:Executing GET for passenger_id = 1 at 19-07-2023 17:13:46
+DEBUG:root:Found passenger for: passenger_id=1
+INFO:root:Executing GET for passenger_id = -1 at 19-07-2023 17:13:50
+WARNING:root:Passenger not found for passenger_id=-1
+INFO:root:Executing GET for passenger_id = 2 at 19-07-2023 17:13:53
+DEBUG:root:Found passenger for: passenger_id=2
+INFO:root:Executing GET for passenger_id = 2 at 19-07-2023 17:13:57
+WARNING:root:Invalid passenger attribute: invalid
+DEBUG:root:Found passenger for: passenger_id=2
+INFO:root:Executing GET for all passengers at 19-07-2023 17:14:01
+INFO:root:Shutting down service at 19-07-2023 17:14:20
+INFO:root:Service was restarted at 19-07-2023 17:14:45
+DEBUG:root:log_level='DEBUG'
+DEBUG:root:Loading data from csv: titanic.csv at 19-07-2023 17:14:45
+INFO:root:Loaded total of 891 passengers
+INFO:root:Executing GET for fare_histogram at 19-07-2023 17:15:08
+INFO:root:Executing GET for passenger_id = 1 at 19-07-2023 17:15:12
+DEBUG:root:Found passenger for: passenger_id=1
+INFO:root:Executing GET for passenger_id = -1 at 19-07-2023 17:15:16
+WARNING:root:Passenger not found for passenger_id=-1
+INFO:root:Executing GET for passenger_id = 2 at 19-07-2023 17:15:19
+DEBUG:root:Found passenger for: passenger_id=2
+INFO:root:Executing GET for passenger_id = 2 at 19-07-2023 17:15:22
+WARNING:root:Invalid passenger attribute: invalid
+DEBUG:root:Found passenger for: passenger_id=2
+INFO:root:Executing GET for all passengers at 19-07-2023 17:15:26
+INFO:root:Shutting down service at 19-07-2023 17:15:33
+INFO:root:Service was restarted at 19-07-2023 17:16:06
+DEBUG:root:log_level='DEBUG'
+ERROR:root:Error: Uknown data source -  'some_source'
+INFO:root:Loaded total of None passengers
+INFO:root:Executing GET for all passengers at 19-07-2023 17:17:15
+ERROR:root:Error: Uknown data source -  'some_source'
+INFO:root:Loaded total of None passengers
+ERROR:root:Unable to proceed with the request due to data source issue
+INFO:root:Shutting down service at 19-07-2023 17:18:38
