@@ -10,7 +10,7 @@ Contains the following files:<br>
     titanic.db - titanic passengers data in sqlite3 db file<br>
     titanic.py - web service implementation<br>
     titanic_api.ipynb - usages of the web service<br>
-    config.ini - configuration file where you can set the follwoing attributes:<br>
+    config.ini - configuration file where you can set the following attributes:<br>
                   DATA_SOURCE - can be CSV / DATABASE /  not supported source<br>
                   LOG_LEVEL - logging log level<br>
                   CSV_PATH - titanic passengers data csv file <br>
